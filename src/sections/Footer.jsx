@@ -1,6 +1,7 @@
 import { copyrightSign } from "../assets/icons";
 import { footerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
+import Link from 'react-dom'
 
 const Footer = () => {
   return (
@@ -62,7 +63,7 @@ const Footer = () => {
             height={20}
             className='rounded-full m-0'
           />
-          <p>Copyright. All rights reserved.</p>
+          <p>Made by Vipul Maheshwari. <span>You can contact me on <a href="https://www.linkedin.com/in/vipul-maheshwari1/">LinkedIn</a> </span></p>
         </div>
         <p className='font-montserrat cursor-pointer'>Terms & Conditions</p>
       </div>
